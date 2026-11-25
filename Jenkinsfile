@@ -11,7 +11,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/priyaa-prii-14/exp5.git'
+                    url: 
+            }
         }
 
         stage('Build Application') {
@@ -54,4 +55,3 @@ pipeline {
         }
     }
 }
-
